@@ -3,5 +3,94 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 /* End Reset */
+
+/* General Layout */
+.float {
+  float: left;
+}
+.overflow {
+  overflow-x: auto;
+}
+.list {
+  list-style: none;
+}
+.list a {
+  text-decoration: none;
+}
+.list ul {
+  list-style-type: none;
+}
+
+.wrap {
+  height: calc(100vh - 100px);
+}
+.wrap .sidenav {
+  height: 100%;
+  width: 250px;
+  background: #000000;
+  float: left;
+}
+.wrap .content {
+  height: 100%;
+  width: calc(100% - 250px);
+  float: left;
+  background: #141923;
+}
+.wrap .header {
+  background: rgba(0,0,0,0.3);
+  height: 100px;
+}
+.player {
+  height: 100px;
+  background: #282828;
+}
+/* End General Layout */
+
+
+/*** SIDENAV ***/
+/* Logo Container */
+.logo {
+  height: 80px;
+}
+.logo img {
+  width: 150px;
+  margin: 20px 50px 20px 20px;
+}
+/* End Logo Container */
+
+/* Nav Container */
+.nav ul{
+  padding-inline-start: 0;
+}
+.nav li{
+  padding-left: 30px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.nav a,
+.nav img{
+  color: rgba(255,255,255,0.5)
+}
+
+.nav li.active {
+  padding-left: 28px;
+  border-left: 2px solid #99e22e;
+}
+.nav li.active a{
+  color: white;
+}
+
+.nav img {
+  width: 30px;
+  margin-right: 5px;
+  padding: 5px 0;
+  vertical-align: middle;
+}
+/* End Nav Container */
+
+/* Logo Container */
+/* End Logo Container */
+/*** END SIDENAV ***/
