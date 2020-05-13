@@ -11,15 +11,15 @@
 
   <body>
     <main>
-      <div class="wrap">
+      <div class="wrap clearfix">
         <!-- SIDENAV -->
         <div class="sidenav">
           <!-- Logo -->
-          <div class="logo">
+          <div class="nav-element logo">
             <img src="img/logo.svg" alt="Spotify Logo">
           </div>
           <!-- Nav -->
-          <div class="list nav">
+          <div class="nav-element nav list">
             <ul>
               <!-- Home -->
               <li class="active"><a href="#"><img src="img/home.svg" alt="Home"> Home</a></li>
@@ -30,16 +30,51 @@
             </ul>
           </div>
           <!-- Playlist -->
-          <div class="list playlist">
-
+          <div class="nav-element playlist list">
+            <div class="img-container">
+              <h3>Playlist</h3>
+              <div class="btn-playlist">
+                <i class="fas fa-plus"></i>
+                <h4>Crea Playlist</h4>
+              </div>
+            </div>
+            <div class="playlist-container">
+              <ul>
+                <li><a href="">Nuova playlist</a></li>
+                <li><a href="">Nuova playlist</a></li>
+                <li><a href="">Nuova playlist</a></li>
+                <li><a href="">Nuova playlist</a></li>
+                <li><a href="">Nuova playlist</a></li>
+                <li><a href="">Nuova playlist</a></li>
+                <li><a href="">Nuova playlist</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- User -->
+          <div class="nav-element user">
+            <!-- Download CTA -->
+            <div class="download">
+              <img src="img/download.svg" alt="Download">
+              <a href="#"> Installa App</a>
+            </div>
+            <hr>
+            <!-- User Container -->
+            <div class="username">
+              <div class="user-img">
+                <img src="img/profile.svg" alt="Avatar">
+              </div>
+              <div class="text">
+                <h3>John Doe </h3>
+              </div>
+            </div>
           </div>
         </div>
         <!-- END SIDENAV -->
         <!-- CONTENT -->
-        <div class="content overflow">
+        <div class="content">
           <!-- FIXED HEADER -->
           <div class="header">
-
+            <div class="btn-fixed"><a href="">Effettua l'upgrade</a></div>
           </div>
           <!-- END FIXED HEADER -->
           <!-- CONTENT -->
@@ -52,14 +87,54 @@
 
     <footer>
       <div class="player">
-        <div class="play-sec track float">
-
+        <!-- Track Section -->
+        <div class="play-section track">
+          <!-- Track Cover -->
+          <img src="img/sinister.jpeg" width="50px" alt="Track Cover">
+          <!-- Track Title -->
+          <div class="title">
+            <h4>Sinister</h4>
+            <p>Brano nome</p>
+          </div>
+          <!-- Icons -->
+          <div class="icons">
+            <i class="far fa-heart"></i>
+            <i class="far fa-folder"></i>
+          </div>
         </div>
-        <div class="play-sec time float">
-
+        <!-- Time Section -->
+        <div class="play-section time">
+          <!-- Player Icons -->
+          <div class="icons-top">
+            <i class="fas fa-random"></i>
+            <i class="fas fa-step-forward"></i>
+            <i class="far fa-play-circle"></i>
+            <i class="fas fa-step-forward"></i>
+            <i class="fas fa-redo-alt"></i>
+          </div>
+          <!-- Player Bars -->
+          <div class="player-bars">
+            <div class="audio-time">0:25</div>
+            <div class="bars">
+              <div class="bar">&nbsp;</div>
+              <!-- <div class="hover">&nbsp;</div> -->
+            </div>
+            <div class="audio-time">4:35</div>
+          </div>
         </div>
-        <div class="play-sec volume float">
-
+        <!-- Volume Section -->
+        <div class="play-section volume">
+          <!-- Volume Icons -->
+          <div class="icons">
+            <i class="fas fa-list"></i>
+            <i class="fas fa-desktop"></i>
+            <i class="fas fa-volume-up"></i>
+          </div>
+          <!-- Volume Bars -->
+          <div class="bars">
+            <div class="bar">&nbsp;</div>
+            <!-- <div class="hover">&nbsp;</div> -->
+          </div>
         </div>
       </div>
     </footer>
