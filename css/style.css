@@ -113,6 +113,7 @@ footer {
 /* Playlist */
 .playlist {
   padding-left: 30px;
+  flex-grow: 2;
 }
 .playlist h3{
   text-transform: uppercase;
@@ -164,7 +165,7 @@ footer {
 /* User */
 .user{
   padding-left: 30px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 .user .cta{
   cursor: pointer;
@@ -263,7 +264,9 @@ footer {
   top: 120%;
   transform: translate(-50%);
 }
-
+.nav-menu .nav-items li{
+  margin: 5px;
+}
 .nav-menu .nav-items a{
   color: rgba(255,255,255,0.3);
   font-weight: 700;
@@ -556,6 +559,10 @@ footer {
   .display-xs,
   .display-lg {
     display: none;
+  }
+
+  .user{
+    padding-left: 15px;
   }
 
   .card{
