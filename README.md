@@ -4,6 +4,6 @@
 
 Built in HTML, CSS, Javascript
 
-![Project Preview](https://davide-termite.github.io/html-css-spotifyweb/spotify.jpg)
+Clone of the responsive layout of the Spotify Webapp
 
 [Check it out](https://davide-termite.github.io/html-css-spotifyweb/)
